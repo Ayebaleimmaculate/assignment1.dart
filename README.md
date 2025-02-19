@@ -1,4 +1,4 @@
-# movie_app
+# assignment1.dart
 
 A new Flutter project.
 
