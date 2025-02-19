@@ -1,0 +1,15 @@
+class Cast {
+  final int? id;
+  final String? name;
+  final String? character;
+  final String? profilePath;
+
+  Cast({this.id, this.name, this.character, this.profilePath});
+
+  factory Cast.fromJson(Map<String, dynamic> json) => Cast(
+        id: json['id'],
+        name: json['name'],
+        character: json['character'],
+        profilePath: json['profile_path'],
+      );
+}
